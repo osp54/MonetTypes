@@ -1,14 +1,14 @@
 # MonetTypes
-MonetTypes - набор типов данных для скриптов MonetLoader, форк [moonloader-definitions](https://github.com/GovnocodedByChapo/moonloader-definitions).
-Отличия от оригинала:
-- Помечены функции как deprecated, которые не поддерживаются в MonetLoader
-- Добавлены новые типы данных (ивент onTouch, MONET_DPI_SCALE, MONET_VERSION, и т.д.)
-## Установка
-1. Склонируйте репозиторий
+MonetTypes - РЅР°Р±РѕСЂ С‚РёРїРѕРІ РґР°РЅРЅС‹С… РґР»СЏ СЃРєСЂРёРїС‚РѕРІ MonetLoader, С„РѕСЂРє [moonloader-definitions](https://github.com/GovnocodedByChapo/moonloader-definitions).
+РћС‚Р»РёС‡РёСЏ РѕС‚ РѕСЂРёРіРёРЅР°Р»Р°:
+- РџРѕРјРµС‡РµРЅС‹ С„СѓРЅРєС†РёРё РєР°Рє deprecated, РєРѕС‚РѕСЂС‹Рµ РЅРµ РїРѕРґРґРµСЂР¶РёРІР°СЋС‚СЃСЏ РІ MonetLoader
+- Р”РѕР±Р°РІР»РµРЅС‹ РЅРѕРІС‹Рµ С‚РёРїС‹ РґР°РЅРЅС‹С… (РёРІРµРЅС‚ onTouch, MONET_DPI_SCALE, MONET_VERSION, Рё С‚.Рґ.)
+## РЈСЃС‚Р°РЅРѕРІРєР°
+1. РЎРєР»РѕРЅРёСЂСѓР№С‚Рµ СЂРµРїРѕР·РёС‚РѕСЂРёР№
   - `git clone https://github.com/osp54/MonetTypes`
-2. Добавьте в `.vscode/settings.json` вашего проекта путь к папке `library` в репозитории MonetTypes:
+2. Р”РѕР±Р°РІСЊС‚Рµ РІ `.vscode/settings.json` РІР°С€РµРіРѕ РїСЂРѕРµРєС‚Р° РїСѓС‚СЊ Рє РїР°РїРєРµ `library` РІ СЂРµРїРѕР·РёС‚РѕСЂРёРё MonetTypes:
 ```json
 {
-  "Lua.workspace.library": ["путь к папке library в репозитории MonetTypes"]
+  "Lua.workspace.library": ["РїСѓС‚СЊ Рє РїР°РїРєРµ library РІ СЂРµРїРѕР·РёС‚РѕСЂРёРё MonetTypes"]
 }
 ```
